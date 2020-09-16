@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "FluentDarkModeKit",
+        "repositoryURL": "https://github.com/microsoft/FluentDarkModeKit.git",
+        "state": {
+          "branch": null,
+          "revision": "068b756cb6e8f6a4ebffa3f43983bfab0d2fa532",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

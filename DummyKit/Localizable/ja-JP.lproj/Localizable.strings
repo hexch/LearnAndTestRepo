@@ -1,0 +1,17 @@
+
+/*
+  LocalizableTesrt.strings
+  DummyKit
+
+  Created by 何　暁川 on 2020/09/14.
+  Copyright © 2020 hexch. All rights reserved.
+*/
+"login" = "Login";
+"logout" = "Logout";
+
+"darmode" = "ダークモード";
+"lightmode" = "ライトモード";
+"ChoseLanguage" = "言語変更";
+"Cancel" = "取り消し";
+"English" = "英語";
+"Japanese" = "日本語";

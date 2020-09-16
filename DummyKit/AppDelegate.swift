@@ -8,6 +8,7 @@
 //
 
 import UIKit
+import FluentDarkModeKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        initFluentDarkModeKit()
         return true
     }
 
@@ -34,5 +36,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 
+    private func initFluentDarkModeKit(){
+        let configuration = DMEnvironmentConfiguration()
+        // optional, register a callback for theme change
+        configuration.themeChangeHandler = {
+            print("theme changed")
+        }
+        // optional, whether UIImageAsset is used for dynamic image
+        // only available for iOS 13+, images marked with "Preserve
+        // Vector Data" is not to be used when it is set to true,
+        // default to false.
+        configuration.useImageAsset = false
+
+        DarkModeManager.setup(with: configuration)
+        DarkModeManager.register(with: UIApplication.shared)
+        DMTraitCollection.setOverride(DMTraitCollection(userInterfaceStyle: .light), animated: true) // Change to light theme with animation
+
+    }
 }
 

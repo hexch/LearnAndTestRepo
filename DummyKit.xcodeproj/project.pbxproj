@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,20 @@
 		A0E82FA3250F114F006A3834 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0E82FA1250F114F006A3834 /* Main.storyboard */; };
 		A0E82FA5250F1156006A3834 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0E82FA4250F1156006A3834 /* Assets.xcassets */; };
 		A0E82FA8250F1156006A3834 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0E82FA6250F1156006A3834 /* LaunchScreen.storyboard */; };
+		A0E82FB1250F1794006A3834 /* FluentDarkModeKit in Frameworks */ = {isa = PBXBuildFile; productRef = A0E82FB0250F1794006A3834 /* FluentDarkModeKit */; };
+		A0E82FB4250F180D006A3834 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E82FB3250F180D006A3834 /* Color+.swift */; };
+		A0E82FB8250F543B006A3834 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0E82FBA250F543B006A3834 /* Localizable.strings */; };
+		A0E82FC0250F5681006A3834 /* LocalizedUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E82FBF250F5681006A3834 /* LocalizedUtils.swift */; };
+		A0E82FC3250F65D9006A3834 /* LanguageSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E82FC2250F65D9006A3834 /* LanguageSetting.swift */; };
+		A0E82FCE250FAE25006A3834 /* UITextField+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E82FCD250FAE25006A3834 /* UITextField+.swift */; };
+		A0E82FD1250FB9AE006A3834 /* AttachedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E82FD0250FB9AE006A3834 /* AttachedView.swift */; };
+		A0E82FD3250FBD3C006A3834 /* UIView+AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E82FD2250FBD3C006A3834 /* UIView+AutoLayout.swift */; };
+		A0E82FD5250FBE94006A3834 /* Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E82FD4250FBE94006A3834 /* Delegate.swift */; };
+		A0E82FD7250FBFC3006A3834 /* Test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0E82FD6250FBFC3006A3834 /* Test.storyboard */; };
+		A0E82FD9250FC4A8006A3834 /* UIView+Designable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E82FD8250FC4A8006A3834 /* UIView+Designable.swift */; };
+		A0E82FDE250FC53B006A3834 /* FenceButtonGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E82FDD250FC53B006A3834 /* FenceButtonGroup.swift */; };
+		A0E82FE22510FFF5006A3834 /* AttachedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E82FE12510FFF5006A3834 /* AttachedButton.swift */; };
+		A0E82FE425110A63006A3834 /* UIButton+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E82FE325110A63006A3834 /* UIButton+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +38,26 @@
 		A0E82FA4250F1156006A3834 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0E82FA7250F1156006A3834 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0E82FA9250F1156006A3834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0E82FB3250F180D006A3834 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
+		A0E82FB9250F543B006A3834 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A0E82FBF250F5681006A3834 /* LocalizedUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedUtils.swift; sourceTree = "<group>"; };
+		A0E82FC2250F65D9006A3834 /* LanguageSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSetting.swift; sourceTree = "<group>"; };
+		A0E82FC4250F730C006A3834 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		A0E82FC5250F730C006A3834 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		A0E82FC6250F730D006A3834 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A0E82FC7250F764F006A3834 /* ja-JP */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ja-JP"; path = "ja-JP.lproj/Main.strings"; sourceTree = "<group>"; };
+		A0E82FC8250F764F006A3834 /* ja-JP */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ja-JP"; path = "ja-JP.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		A0E82FC9250F764F006A3834 /* ja-JP */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ja-JP"; path = "ja-JP.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A0E82FCB250FAB0A006A3834 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		A0E82FCD250FAE25006A3834 /* UITextField+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+.swift"; sourceTree = "<group>"; };
+		A0E82FD0250FB9AE006A3834 /* AttachedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachedView.swift; sourceTree = "<group>"; };
+		A0E82FD2250FBD3C006A3834 /* UIView+AutoLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AutoLayout.swift"; sourceTree = "<group>"; };
+		A0E82FD4250FBE94006A3834 /* Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delegate.swift; sourceTree = "<group>"; };
+		A0E82FD6250FBFC3006A3834 /* Test.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Test.storyboard; sourceTree = "<group>"; };
+		A0E82FD8250FC4A8006A3834 /* UIView+Designable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Designable.swift"; sourceTree = "<group>"; };
+		A0E82FDD250FC53B006A3834 /* FenceButtonGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FenceButtonGroup.swift; sourceTree = "<group>"; };
+		A0E82FE12510FFF5006A3834 /* AttachedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachedButton.swift; sourceTree = "<group>"; };
+		A0E82FE325110A63006A3834 /* UIButton+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0E82FB1250F1794006A3834 /* FluentDarkModeKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +91,92 @@
 		A0E82F9A250F114F006A3834 /* DummyKit */ = {
 			isa = PBXGroup;
 			children = (
+				A0E82F9F250F114F006A3834 /* ViewController.swift */,
+				A0E82FCF250FB98C006A3834 /* Shared */,
+				A0E82FCC250FAE12006A3834 /* UI+ */,
+				A0E82FBE250F560F006A3834 /* Utils */,
+				A0E82FB5250F53FA006A3834 /* Localizable */,
+				A0E82FB2250F17FA006A3834 /* DarkModeTest */,
 				A0E82F9B250F114F006A3834 /* AppDelegate.swift */,
 				A0E82F9D250F114F006A3834 /* SceneDelegate.swift */,
-				A0E82F9F250F114F006A3834 /* ViewController.swift */,
 				A0E82FA1250F114F006A3834 /* Main.storyboard */,
 				A0E82FA4250F1156006A3834 /* Assets.xcassets */,
 				A0E82FA6250F1156006A3834 /* LaunchScreen.storyboard */,
 				A0E82FA9250F1156006A3834 /* Info.plist */,
+				A0E82FD6250FBFC3006A3834 /* Test.storyboard */,
 			);
 			path = DummyKit;
+			sourceTree = "<group>";
+		};
+		A0E82FB2250F17FA006A3834 /* DarkModeTest */ = {
+			isa = PBXGroup;
+			children = (
+				A0E82FB3250F180D006A3834 /* Color+.swift */,
+			);
+			path = DarkModeTest;
+			sourceTree = "<group>";
+		};
+		A0E82FB5250F53FA006A3834 /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				A0E82FBA250F543B006A3834 /* Localizable.strings */,
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
+		A0E82FBE250F560F006A3834 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A0E82FBF250F5681006A3834 /* LocalizedUtils.swift */,
+				A0E82FC2250F65D9006A3834 /* LanguageSetting.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A0E82FCC250FAE12006A3834 /* UI+ */ = {
+			isa = PBXGroup;
+			children = (
+				A0E82FCD250FAE25006A3834 /* UITextField+.swift */,
+			);
+			path = "UI+";
+			sourceTree = "<group>";
+		};
+		A0E82FCF250FB98C006A3834 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A0E82FDC250FC4D6006A3834 /* Views */,
+				A0E82FDB250FC4CE006A3834 /* Utils */,
+				A0E82FDA250FC4C1006A3834 /* Extensions */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A0E82FDA250FC4C1006A3834 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A0E82FD8250FC4A8006A3834 /* UIView+Designable.swift */,
+				A0E82FD2250FBD3C006A3834 /* UIView+AutoLayout.swift */,
+				A0E82FE325110A63006A3834 /* UIButton+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A0E82FDB250FC4CE006A3834 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A0E82FD4250FBE94006A3834 /* Delegate.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A0E82FDC250FC4D6006A3834 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A0E82FD0250FB9AE006A3834 /* AttachedView.swift */,
+				A0E82FDD250FC53B006A3834 /* FenceButtonGroup.swift */,
+				A0E82FE12510FFF5006A3834 /* AttachedButton.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,12 +189,16 @@
 				A0E82F94250F114F006A3834 /* Sources */,
 				A0E82F95250F114F006A3834 /* Frameworks */,
 				A0E82F96250F114F006A3834 /* Resources */,
+				A0E82FBB250F55BC006A3834 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = DummyKit;
+			packageProductDependencies = (
+				A0E82FB0250F1794006A3834 /* FluentDarkModeKit */,
+			);
 			productName = DummyKit;
 			productReference = A0E82F98250F114F006A3834 /* DummyKit.app */;
 			productType = "com.apple.product-type.application";
@@ -109,8 +225,13 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
+				"ja-JP",
 			);
 			mainGroup = A0E82F8F250F114E006A3834;
+			packageReferences = (
+				A0E82FAF250F1794006A3834 /* XCRemoteSwiftPackageReference "FluentDarkModeKit" */,
+			);
 			productRefGroup = A0E82F99250F114F006A3834 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,13 +246,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0E82FB8250F543B006A3834 /* Localizable.strings in Resources */,
 				A0E82FA8250F1156006A3834 /* LaunchScreen.storyboard in Resources */,
 				A0E82FA5250F1156006A3834 /* Assets.xcassets in Resources */,
 				A0E82FA3250F114F006A3834 /* Main.storyboard in Resources */,
+				A0E82FD7250FBFC3006A3834 /* Test.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A0E82FBB250F55BC006A3834 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n# Localizable.strings文件路径\nlocalizableFile=\"${SRCROOT}/${PROJECT_NAME}/Localizable/en.lproj/Localizable.strings\"\n# 生成的swift文件路径（根据个人习惯修改）\nlocalizedFile=\"${SRCROOT}/${PROJECT_NAME}/Utils/LocalizedUtils.swift\"\n# 将localizable.strings中的文本转为swift格式的常量，存入一个临时文件\nawk '/^ *\\\".*\\\" = \\\".*\\\";$/{print $0}' \"${localizableFile}\"| sed 's/ *//g' | awk -F= '{print $1}' | sed 's/\\\"//g' | awk '{print \"    static var localized_\"$1\": String { return \\\"\"$1\"\\\".localized }\"}' > \"${localizedFile}.tmp\"\n# 先将localized作为计算属性输出到目标文件\necho \"import Foundation\\n\\nextension String {\\n\\tvar localized: String {\\n\\t\\tBundle.main.onLanguage()\\n\\t\\treturn NSLocalizedString(self, comment: self)\\n\\t}\" > \"${localizedFile}\"\n# 再将临时文件中的常量增量输出到目标文件\ncat \"${localizedFile}.tmp\" >> \"${localizedFile}\"\n# 最后增量输出一个\"}\"到目标文件，完成输出\necho \"\\n}\" >> \"${localizedFile}\"\n# 删除临时文件\nrm \"${localizedFile}.tmp\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A0E82F94250F114F006A3834 /* Sources */ = {
@@ -139,7 +282,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0E82FA0250F114F006A3834 /* ViewController.swift in Sources */,
+				A0E82FE22510FFF5006A3834 /* AttachedButton.swift in Sources */,
+				A0E82FD3250FBD3C006A3834 /* UIView+AutoLayout.swift in Sources */,
+				A0E82FB4250F180D006A3834 /* Color+.swift in Sources */,
+				A0E82FDE250FC53B006A3834 /* FenceButtonGroup.swift in Sources */,
+				A0E82FCE250FAE25006A3834 /* UITextField+.swift in Sources */,
+				A0E82FD9250FC4A8006A3834 /* UIView+Designable.swift in Sources */,
+				A0E82FC0250F5681006A3834 /* LocalizedUtils.swift in Sources */,
+				A0E82FC3250F65D9006A3834 /* LanguageSetting.swift in Sources */,
+				A0E82FE425110A63006A3834 /* UIButton+.swift in Sources */,
+				A0E82FD5250FBE94006A3834 /* Delegate.swift in Sources */,
 				A0E82F9C250F114F006A3834 /* AppDelegate.swift in Sources */,
+				A0E82FD1250FB9AE006A3834 /* AttachedView.swift in Sources */,
 				A0E82F9E250F114F006A3834 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +305,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				A0E82FA2250F114F006A3834 /* Base */,
+				A0E82FC4250F730C006A3834 /* zh-Hans */,
+				A0E82FC7250F764F006A3834 /* ja-JP */,
+				A0E82FCB250FAB0A006A3834 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -159,8 +316,20 @@
 			isa = PBXVariantGroup;
 			children = (
 				A0E82FA7250F1156006A3834 /* Base */,
+				A0E82FC5250F730C006A3834 /* zh-Hans */,
+				A0E82FC8250F764F006A3834 /* ja-JP */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A0E82FBA250F543B006A3834 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0E82FB9250F543B006A3834 /* en */,
+				A0E82FC6250F730D006A3834 /* zh-Hans */,
+				A0E82FC9250F764F006A3834 /* ja-JP */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -170,6 +339,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -230,6 +400,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -338,6 +509,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A0E82FAF250F1794006A3834 /* XCRemoteSwiftPackageReference "FluentDarkModeKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/microsoft/FluentDarkModeKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A0E82FB0250F1794006A3834 /* FluentDarkModeKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0E82FAF250F1794006A3834 /* XCRemoteSwiftPackageReference "FluentDarkModeKit" */;
+			productName = FluentDarkModeKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A0E82F90250F114E006A3834 /* Project object */;
 }

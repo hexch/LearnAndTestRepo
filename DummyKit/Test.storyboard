@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="206-02-i6H">
+            <objects>
+                <viewController id="Snz-RV-Agl" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="B3C-BW-dui">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aeC-TR-yUi" customClass="AttachedView" customModule="DummyKit" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="396" width="375" height="30"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="SSg-6E-FOb"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yOf-t5-c4w" customClass="FenceButtonGroup" customModule="DummyKit" customModuleProvider="target">
+                                <rect key="frame" x="68" y="313" width="103" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="aeC-TR-yUi" firstAttribute="leading" secondItem="wWg-gm-BAx" secondAttribute="leading" id="TDp-Pz-uMH"/>
+                            <constraint firstItem="aeC-TR-yUi" firstAttribute="centerY" secondItem="wWg-gm-BAx" secondAttribute="centerY" id="XHS-vB-yXj"/>
+                            <constraint firstItem="aeC-TR-yUi" firstAttribute="trailing" secondItem="wWg-gm-BAx" secondAttribute="trailing" id="nVI-zu-Nay"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="wWg-gm-BAx"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fRX-4N-DlO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="119.2" y="7.389162561576355"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" systemColor="tertiaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+</document>
